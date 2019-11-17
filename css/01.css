@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fa{
+	width: 999px;
+	height: 100px;
+	margin: 0 auto;
+}
+.dox1{
+	width:250px;
+	height: 30px;
+	margin-top:38px;
+	padding-left: 20px;
+	float: left;
+}
+.dox2{
+	width: 230px;
+	height: 30px;
+	border: 1px solid  gray;
+	margin-top:38px;
+    float: right;
+	margin-right: 20px;
+}
+.fa .dox2 input[type=text]{
+	/* 要空格才是后代选择器
+	 >是亲儿选择器，只能选择他儿子*/
+	width:190px;
+	height:30px;
+	border: none;
+	float: left; 
+	background: #f1f1f1;
+}
+.fa .dox2 input[type=submit]{
+	width:40px;
+	height: 30px;
+	border: none;
+	float: right;
+	background: #F1F1F1 url(../img/search.png) no-repeat center center;
+}
+.nav ul{
+	width:999px ;
+	height:60px;
+	background:black;
+	margin: 0 auto;
+	padding-left: 25px;
+	box-sizing: border-box;
+	
+}
+.nav ul li{
+	/* color: white; */
+	list-style: none;
+	width:120px;
+	height:60px;
+	float:left;
+	text-align: center;
+	/* 水平中间 */
+	line-height: 60px;
+	font-size: 16px;
+   border-right: 1px solid #4a4a4a;
+	box-sizing: border-box;
+	
+	
+}
+.nav ul li:last-child{
+	border-right: none;
+}
+
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+	/* 下划线 */
+}
+.banner{
+	width: 999px;
+	height: 464px;
+	margin: 0 auto;
+}
+
+/* 第二部分 */
+.father{
+	width: 999px;
+	height:260px;
+	margin: 0 auto;
+}
+h3{
+	font-size: 20px;
+}
+.box1{
+	width: 350px;
+	height: 260px;
+    padding-left: 30px;
+	float: left;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+	
+.box1  ul{
+	line-height: 20px;
+	padding-top: 35px;
+	 font:13px "微软雅黑";
+	 /* 设置新闻资讯的字体 */
+}
+.box1 ul li{
+	line-height: 24px;
+}
+.box2{
+	 
+	padding-top: 86px;
+	float:left;
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	
+}
+.box2 ul li{
+ 
+    color: #aeaeae;
+	list-style: none; 
+	/* li前面的点 */
+	font: "微软雅黑";
+	line-height: 26px;
+}
+.box3{
+	width: 270px;
+	height: 260px;
+	float: left;
+	font-size: 10px;
+	padding-left: 10px;
+	padding-top: 30px;
+	padding: 30px;
+	background: #e5e5e5;
+	box-sizing: border-box;
+}
+.box3 div{
+	 padding-top: 30px;
+	 line-height: 24px;
+}
+.bb{
+	 
+     color: #AEAEAE;
+	/* 2、强制显示为一行*/
+     white-space: nowrap;
+	/* 3、超出部分隐藏*/
+	overflow: hidden;
+	/* 4、文本溢出属性*/
+	text-overflow: ellipsis;
+	 font-weight: 0.5px;
+	}
+ 
+.box4{
+	 
+	padding-top: 30px;
+	padding-left:30px;
+	box-sizing: border-box;
+}	
+ .box4 h3{
+	padding-left: 739px;
+}
+.box4 div.cc{
+	 padding-top: 30px;
+	 padding-left:739px;
+}
+.box4 div.dd{
+	width: 20px;
+	height: 20px;
+	float: left;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-left: 10px;
+}
+
+.ff{
+	 float: right;
+	 padding-top: 20px;
+	 padding-right: 40px;
+}
+
+/* 第三部分 */
+.gg{
+	width: 990px;
+	height: 256px;
+	margin: 0 auto;
+	padding-top: 50px;
+	
+	box-sizing: border-box;
+	 
+}
+.gg img{
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.news1{
+	width: 220px;
+	height: 200px;
+	float: left;
+	padding-right: 30PX;
+	padding-left: 5px;
+}
+.news2{
+	width: 220px;
+	height: 200px;
+	float: left;
+	padding-right: 20PX;
+	padding-left: 5px;
+	
+}
+.news3{
+	width: 220px;
+	height: 200px;
+	float: left;
+	padding-right: 20PX;
+	padding-left: 5px;
+	
+}
+.news4{
+	width: 220px;
+	height: 200px;
+	float: left;
+	padding-right: 20PX;
+	padding-left: 5px;
+}
+/* 图片下的文字属性 */
+
+
+/* 第四部分 */
+.kk{
+	width: 999px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-left: 30px;
+	background: #e5e5e5;
+	box-sizing: border-box;
+	border-bottom:light gray ;
+}
+
+/* 标题设置下划线 */
+.r1 h3{
+	width: 450px;
+	 border-bottom:1px solid #AEAEAE;
+}
+.q2 h3{
+	width: 140px;
+    border-bottom:1px solid #AEAEAE; 
+}
+ 
+ .q3 h3{
+	 width: 180px;
+	 border-bottom:1px solid #AEAEAE; 
+ }
+ 
+.q1{ 
+     width: 500px;
+     height: 300px;
+     float: left;
+ 
+}
+ 
+ 
+ 
+.kk ul{
+	float: left;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 10px;
+	
+	
+}
+.kk ul li{
+	list-style: none;
+	padding-left: 13px;
+	background: url(../img/item_icon.png) no-repeat;
+	/* 产品中心前li图片设置 */
+}
+ 
+
+.q2{
+	width: 150px;
+	height: 300px;
+	float: left;
+}
+.q3{
+	 
+	width: 100px;
+	height: 300px;
+	float: left;
+	padding-left: 40px;
+	 
+	 
+}
+ #ll{
+	 padding-top: 30px;
+	 padding-left: 40px;
+ }
+ 
+ 
+ 
+ /* 第五部分 */
+	 
+ .pp{
+	 width: 999px;
+	 height: 60px;
+	margin-top: 300px;
+	 margin: 0 auto;
+	 
+ }
+ .p1{
+	 width: 300px;
+	 height:60px ;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+	 
+ }
+ 
+.p1 ul{
+ 		width: 270px;
+ 		height:50px;
+ 		/* background: #0f0; */
+		padding-left: 30px;
+ 		margin: 0 auto;
+ 	}
+.p1 ul li{
+ 		list-style: none;
+ 		float: left;
+ 		height:20pxpx;
+ 		font-size: 5px;
+	    color: #AEAEAE;
+ 		border-right: 1px solid #AEAEAE;
+ 		/* 导航条的主要代码 */
+ 		text-align: center;
+ 		line-height: 0px;
+		padding:5px;
+      
+ 		/* 行高 */
+ 		box-sizing: border-box; 
+		
+ 		 
+ 	}
+ 		
+ 	 
+ .p1 a{ 
+ 		/*文字的下划线没有*/
+ 		text-decoration: none;
+ 	}
+ .p1 ul li:last-child{
+ 		border-right:none ;
+ 		
+ 	}
+	
+	/*点击改变颜色*/
+	ui li:hover{
+		background: none;	 
+	}
+	
+	
+  .p2 {
+	  width: 660px;
+	  height: 50px;
+	 float: left;
+	/*  background: yellow; */
+	  padding-left: 30px;
+	  box-sizing: border-box; 
+	  padding-top: 10px;
+  }
+ 
+	.p2 div{
+		  padding-left: 80px;
+		  /* 控制 */
+		  font-size: 10px;
+		  color: #AEAEAE;
+		  float: left;
+		  
+	}	
+	 .p2 div img{
+		 width: 20px;
+		 height: 20px;
+		 padding-right: 10px;
+		 float: right;
+	 }
+ 
